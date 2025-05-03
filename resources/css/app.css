@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    .animate-BorderB {
+        animation: BorderB 0.3s ease-in-out;
+    }
+}
