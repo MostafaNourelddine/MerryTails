@@ -17,8 +17,7 @@
                         <h3 class="footer-heading mb-4">Contact Info</h3>
                         <ul class="list-unstyled">
                             <li class="address">Tyre-Jouaiya LEBANON</li>
-                            <li class="phone"><a>+961 00 000 000</a></li>
-                            <li class="email">emailaddress@domain.com</li>
+                            <li class="phone"><a>+961 81 906 983</a></li>
                         </ul>
                     </div>
 

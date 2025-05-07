@@ -37,10 +37,9 @@
                     <div class="col-md-5 text-center text-md-left pt-5 pt-md-0">
                         <h1 class="mb-2">Finding Your Perfect Customization</h1>
                         <div class="intro-text text-center text-md-left">
-                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at
-                                iaculis quam. Integer accumsan tincidunt fringilla. </p>
-                            <p>
-                                <a href="/category/1/show" class="btn btn-sm btn-primary">Shop Now</a>
+
+                            <a href="/category/1/show" class="btn btn-sm btn-primary " style="margin-top:1rem">Shop
+                                Now</a>
                             </p>
                         </div>
                     </div>

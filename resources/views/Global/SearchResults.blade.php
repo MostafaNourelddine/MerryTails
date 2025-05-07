@@ -50,7 +50,14 @@
                         </div>
                         <div class="row mb-5">
                             @if($items->count()==0)
-                            <div class="asolute">No Items Founded</div>
+                            <div class="d-flex justify-content-center align-items-center vh-100">
+                                <div class="alert alert-warning text-center shadow p-5 rounded-4 bg-white">
+                                    <h4 class="alert-heading mb-3">No Items Found</h4>
+                                    <p class="mb-0">Try adjusting your search or come back later.</p>
+                                    <i class="bi bi-search display-4 mt-3 text-muted"></i>
+                                </div>
+                            </div>
+
                             @else
                             @foreach($items as $item)
                             <div class="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
