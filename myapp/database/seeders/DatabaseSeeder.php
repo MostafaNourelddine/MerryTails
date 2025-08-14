@@ -20,7 +20,10 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
 
-        // Admin user is now created manually for security
-        // No seeder reference to avoid exposing credentials in code
+        // Create default users
+        $this->call([
+            UserSeeder::class,
+            AdminUserSeeder::class,
+        ]);
     }
 }
