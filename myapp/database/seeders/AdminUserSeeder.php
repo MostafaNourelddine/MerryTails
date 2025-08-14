@@ -19,8 +19,8 @@ class AdminUserSeeder extends Seeder
         // Create default admin user for admin panel
         AdminUser::create([
             'name' => 'MerryTails Super Admin',
-            'email' => 'superadmin@merrytails.com',
-            'password' => Hash::make('MerryTails@SuperAdmin2024!'),
+            'email' => 'merrytails_admin_2024@merrytails.com',
+            'password' => Hash::make('MerryTails@Secure#Admin2024'),
             'role' => 'super_admin',
         ]);
 
@@ -33,7 +33,7 @@ class AdminUserSeeder extends Seeder
         ]);
 
         $this->command->info('Admin users created successfully!');
-        $this->command->info('Super Admin: superadmin@merrytails.com / MerryTails@SuperAdmin2024!');
+        $this->command->info('Super Admin: merrytails_admin_2024@merrytails.com / MerryTails@Secure#Admin2024');
         $this->command->info('Manager: manager@merrytails.com / MerryTails@Manager2024!');
     }
 }
