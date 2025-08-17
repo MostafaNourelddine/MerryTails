@@ -20,10 +20,6 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
 
-        // Create default users
-        $this->call([
-            UserSeeder::class,
-            AdminUserSeeder::class,
-        ]);
+        // AdminUserSeeder has been removed
     }
 }
